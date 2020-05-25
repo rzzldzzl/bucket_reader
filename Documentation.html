@@ -132,8 +132,8 @@
             <h2 id="hadoop_app">A simple Hadoop application</h2>
 
             <p>Let's look at some code for a Hadoop application that uses these classes. You may wish to download either
-                the <a href="examples/bucket-reader-examples-source.tar.gz">source-code</a> or
-                the <a href="examples/bucket-reader-examples.jar">compiled classes</a> for
+                the <a href="?https://github.com/rzzldzzl/bucket_reader/blob/master/examples/bucket-reader-examples-source.tar.gz">source-code</a> or
+                the <a href="?https://github.com/rzzldzzl/bucket_reader/blob/master/examples/bucket-reader-examples.jar">compiled classes</a> for
                 this example first. Like the classic word-count example, this application counts the number of times
                 each distinct value occurs for each field host, source, and sourcetype. To parse the values, we use the
                 open-source library OpenCSV (see the project page at
@@ -375,7 +375,7 @@ sourcetype = sourcetype::vendor_sales	30244
 
 <h2 id="hive">Usage with Hive</h2>
 
-<p>You can also use Bucket Reader to load Splunk data into Hive. The deserializer class <b><kbd>com.splunk.journal.hive.JournalSerDe</kbd></b> can be used to select columns, as well as handling the output format of the rows. For details, see <a href="/static/app/bucket_reader/javadoc/com/splunk/journal/hive/JournalSerDe.html" target="_blank">the javadoc for this class</a>.</p>
+<p>You can also use Bucket Reader to load Splunk data into Hive. The deserializer class <b><kbd>com.splunk.journal.hive.JournalSerDe</kbd></b> can be used to select columns, as well as handling the output format of the rows. For details, see <a href="?https://github.com/rzzldzzl/bucket_reader/blob/master/static/app/bucket_reader/javadoc/com/splunk/journal/hive/JournalSerDe.html" target="_blank">the javadoc for this class</a>.</p>
 
 <p>To use Bucket Reader with Hive, you must make tell Hive where to find the Bucket Reader jar. One way to do this is by invoking Hive with the "<kbd>--auxpath</kbd>" argument, like this:</p>
 
